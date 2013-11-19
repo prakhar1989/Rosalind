@@ -7,4 +7,15 @@ object common {
     source.close
     lines
   }
+
+  def readLines(filename: String) = {
+    val source = scala.io.Source.fromFile(filename)
+    val lines = source.getLines
+    lines
+  }
+
+  def readFasta(filename: String) = {
+    val source = scala.io.Source.fromFile(filename)
+    val lines = source.getLines
+  }
 }

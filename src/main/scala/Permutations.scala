@@ -12,8 +12,5 @@ object Permutations {
     case 0 => 1
     case x => x * fact(x - 1)
   }
-    
-
-
 }
 
