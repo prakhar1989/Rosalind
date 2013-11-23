@@ -14,5 +14,4 @@ object Complementing {
     case 'G' => 'C'
     case _ => x
   }
-
 }
