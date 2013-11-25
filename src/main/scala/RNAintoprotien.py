@@ -1,4 +1,4 @@
-f = open("codon_table.txt").read().split()
+f = open("rna_codon_table.txt").read().split()
 codon_table = dict([(f[i-1], f[i]) for i in range(1, len(f), 2)])
 input_str = open("rosalind_prot.txt").read().strip()
 answer = []
