@@ -1,4 +1,4 @@
-(HE, HR, HD) = tuple(map(int, open("rosalind_iprb.txt").read().split()))
+(HD, HE, HR) = tuple(map(int, open("rosalind_iprb.txt").read().split()))
 total = float(HE + HR + HD)
 
 prob_HE = HE / total
