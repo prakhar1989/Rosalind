@@ -18,3 +18,4 @@ Solved -
 * Calculating Protein Mass
 * RNA Splicing
 * Mendel's First Law
+* Transitions and Translations
